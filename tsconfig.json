@@ -1,0 +1,25 @@
+{
+
+    "exclude": [
+
+        "**/*-spec.ts",
+        "build",
+        "build1",
+        "node_modules",
+        "public"
+    ],
+    "typeRoots": [
+        "../node_modules/@types"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "target": "es2015",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "allowJs": true,
+        "outDir": "build",
+        "sourceMap": true
+    }
+}

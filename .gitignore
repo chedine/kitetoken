@@ -1,0 +1,6 @@
+node_modules
+build
+work
+src/unsafe/*
+public/js/bundle.js
+db/*
